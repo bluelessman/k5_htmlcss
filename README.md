@@ -9,5 +9,6 @@
 
 ## 시맨틱 태그
 ```
-  <main>
+  <main>, <header>, <footer>, <nav>
 ```
+## CSS
