@@ -1,0 +1,87 @@
+/* 전체 선택 */
+* {
+    /* 바깥쪽 여백 */
+    margin: 0px;
+    /* 안쪽 여백 */
+    padding: 0px;
+
+}
+
+main {
+    background-color: aliceblue;
+    margin-left: 20%;
+    width: 60%;
+}
+
+header {
+    padding: 50px;
+}
+
+header > h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    list-style: none;
+}
+
+li {
+    background-color: darkcyan;
+    margin-left: 10px;
+    width: 100px;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section, article {
+    margin: 30px;
+    padding: 10px;
+}
+
+section > p {
+    margin-top: 20px;
+}
+
+article {
+    background-color: white;
+}
+
+article > h2 {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+article > div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divimg {
+    width: 30%;
+    text-align: center;
+    background-color: blue;
+}
+
+article p {
+    background-color: brown;
+    width: 70%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}

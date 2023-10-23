@@ -1,10 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html 실습03</title>
+    <title>css 실습04</title>
+    <!-- 내부스타일적용 -->
+    <style>
+        /* 태그선택자 */
+        main {
+            background-color: aliceblue
+        }
+
+        article {
+            background-color: white
+        }
+
+        /* 아이디선택자 */
+        #sectionp {
+            color: blue
+        }
+
+        /* 클래스선택자 */
+        .footerp1 {
+            color: darkred
+        }
+
+        .footerp2 {
+            color: darkorchid
+        }
+
+        /* 리액트영역의 p수정
+        1.아이디선택자사용
+        #reactp{color:blue}
+        2.클래스선택자사용
+        .reactpc{color:blueviolet}
+        3.부모자식선택자사용 
+         article > #reactp{color:magenta} 
+        #divReact > p{color:green}*/
+
+        /* 조상자손선택자사용 */
+        footer p {
+            background-color: darkblue;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +63,7 @@
 
         <section>
             <h1>프론트엔드 FrontEnd</h1>
-            <p>
+            <p id="sectionp">
                 웹에서 사용자에게 시각적으로 보여지는 부분을 의미한다. 프론트엔드쪽에서는 주로 HTML, CSS, 자바스크립트가 쓰이며, 요즘은 페이스북에서 개발한 자바스크립트에서 파생된 싱글 페이지
                 애플리케이션
                 형태의 리액트가 많이 사용된다.
@@ -57,18 +96,23 @@
 
         <article id="divReact">
             <h2>React</h2>
-            <div>
+            <!-- 인라인 스타일 적용 -->
+            <div style="background-color: darkgray;">
                 <img src=".\images\react.png">
             </div>
-            <p>사용자 인터페이스를 만들기 위한 JavaScript 라이브러리</p>
+            <p id="reactp" class="reactpc">사용자 인터페이스를 만들기 위한 JavaScript 라이브러리</p>
         </article>
+
+
+        <footer>
+            <div>
+                <p class="footerp1">AI 빅데이터분석 풀스택서비스 SW 개발자 양성과정</p>
+                <p class="footerp2">웹개발, 자바/자료구조/AI 프로그래밍, DB SQL, 빅데이터분석, 텐서플로딥러닝, AI학습모델웹서비스프로젝트, 빅데이터분석웹서비스프로젝트</p>
+                <p class="footerp2">119일간, 평일 오전 9시 20분 ~ 오후 6시(960시간)</p>
+                <p class="footerp1">부산대학교 과학기술연구동 4층 401호 juri3763@pusan.ac.kr 051-510-3764</p>
+            </div>
+        </footer>
     </main>
-    <footer>
-        <p>AI 빅데이터분석 풀스택서비스 SW 개발자 양성과정</p>
-        <p>웹개발, 자바/자료구조/AI 프로그래밍, DB SQL, 빅데이터분석, 텐서플로딥러닝, AI학습모델웹서비스프로젝트, 빅데이터분석웹서비스프로젝트</p>
-        <p>119일간, 평일 오전 9시 20분 ~ 오후 6시(960시간)</p>
-        <p>부산대학교 과학기술연구동 4층 401호 juri3763@pusan.ac.kr 051-510-3764</p>
-    </footer>
 </body>
 
 </html>
