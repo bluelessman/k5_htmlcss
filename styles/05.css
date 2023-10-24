@@ -72,16 +72,24 @@ article > div {
 .divimg {
     width: 30%;
     text-align: center;
-    background-color: blue;
 }
 
 article p {
-    background-color: brown;
+    background-color: lemonchiffon;
     width: 70%;
 }
 
 footer {
-    background-color: black;
+    background-color: darkblue;
     color: white;
-    padding: 30px;
+    padding: 25px;
+}
+footer p{
+    text-align: center;
+}
+.footerp1{
+    margin:5px;
+}
+.footerp2{
+    font-size: small;
 }

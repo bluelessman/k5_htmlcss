@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main {
+            width: 60vw;
+            height: 60vh;
+            margin-left: 20vw;
+            background-color: blue;
+
+
+        }
+        section {
+            background-color: aliceblue;
+            width: 80%;
+            height: 80%;
+        }
+        ul{
+            width: 80%;
+            height: 80%;
+            border: 5px dotted black;
+        }
+        main,section,ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        li{
+            width: 80%;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid blueviolet;
+        }
+        span{
+            background-color: green;
+            color: white;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            padding: 5px;
+            width: 30%;
+            height: 40px;
+            font-size: 1.2rem;
+        }
+        @media (max-width:768px){
+            main{
+                width:100vw;
+                margin-left: 0px;
+            }
+        }
+    </style>
+    <title>css 복습</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <ul>
+                <li><span>박스1</span><span>입니다</span></li>
+                <li><span>박스2</span></li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
