@@ -1,15 +1,25 @@
-#btDiv{
+.btC{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#msg{
+.cmsg{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
     color: white;
     font-weight: bold;
-    width: 50%;
+    width: 80%;
     height:80px;
+}
+section{
+    width:80%;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }

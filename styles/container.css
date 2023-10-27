@@ -59,3 +59,13 @@ button:hover{
     background-color: navy;
     cursor: pointer;
 }
+.cmsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    height:80px;
+}
