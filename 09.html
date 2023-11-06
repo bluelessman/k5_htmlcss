@@ -6,32 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" text="'text/css" href="./styles/container.css">
     <link rel="stylesheet" text="'text/css" href="./styles/09.css">
-    <title>자바스크립트_주사위</title>
+    <title>업다운게임</title>
     <script src="./script/09.js"></script>
 </head>
-<main>
-    <section>
-        <h1>주사위게임</h1>
-    </section>
-    <section>
-        <div>
-            <div id="btDiv1" class="btC">
-                <h2>컴퓨터</h2>
-                <img id="dice1" src="./images/dice/1.png">
+
+<body>
+    <header>
+        <h1>자바스크립트</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">w3schools HTML</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">w3schools JS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section id="sec1">
+            <h1>업다운게임</h1>
+        </section>
+        <section id="sec2">
+            <div id="secDiv">
+                <img id="com" src="./images/04_updown/what.png">
             </div>
-            <div id="btDiv2" class="btC">
-                <h2>플레이어</h2>
-                <img id="dice2" src="./images/dice/6.png">
-            </div>
-        </div>
-        <div id="msg1">
-            <button>주사위를 던져주세요</button>
-        </div>
-    </section>
-    <section>
-        <div id="msg2" class="cmsg">
-        </div>
-    </section>
-</main>
+            <form>
+                <div id="btDiv">
+                    <input type="number" id="txt" name="txt" placeholder="숫자 입력">
+                    <button id="bt">확인</button>
+                </div>
+            </form>
+        </section>
+        <section id="sec3">
+            <h1>랜덤수를 선택하세요.</h1>
+        </section>
+    </main>
+</body>
 
 </html>

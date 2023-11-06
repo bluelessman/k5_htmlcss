@@ -21,12 +21,3 @@ section>div>div{
 h2{
     margin:5px;
 }
-#btDiv{
-    display: flex;
-    justify-self: center;
-    align-items: center;
-}
-#txt{
-    height: 40px;
-    margin-right: 10px;
-}
