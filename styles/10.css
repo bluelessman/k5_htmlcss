@@ -1,0 +1,21 @@
+#sec2{
+    background-color: beige;
+}
+form{
+    width: 100%;
+
+}
+
+.fdiv{
+    background-color: aqua;
+    width: 45%;
+    height: 50px;
+    margin: 5px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}

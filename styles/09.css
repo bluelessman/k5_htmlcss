@@ -1,3 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 10vh;
+    padding:10px;
+    background-color: black;
+    color: white;
+
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav li{
+    margin:0px 10px;
+    padding:5px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+main,header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80vw;
+    margin-left: 10vw;
+}
+main{
+    margin-top: 20px;
+    flex-direction: column;
+}
+#bt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#bt2:hover{
+    background-color: navy;
+    cursor: pointer;
+}
+.cmsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    height:80px;
+}
 section{
     width:80%;
     padding: 20px;
@@ -15,18 +85,32 @@ section>div{
     align-items: center;
     text-align: center;
 }
-section>div>div{
+/* section>div>div{
     margin: 0px 20px;
-}
+} */
 h2{
     margin:5px;
 }
-#btDiv{
+#btDiv2{
     display: flex;
     justify-self: center;
     align-items: center;
+    flex-direction: row;
 }
 #txt{
     height: 40px;
     margin-right: 10px;
+}
+/* #btDiv1, #btDiv3{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: aliceblue;
+} */
+#bt1, #bt3{
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+    padding : 0px;
 }
