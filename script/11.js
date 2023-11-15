@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     })
     bt2.addEventListener("click",(e)=>{
         e.preventDefault();
-        result = 0;
+        let result = 0;
         for(let s of str){
             if(!isNaN(s)){
                 result += parseInt(s);
