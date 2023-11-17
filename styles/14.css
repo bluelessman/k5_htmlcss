@@ -1,0 +1,44 @@
+#d1,#d2{
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+button{
+    width : auto;
+}
+.sp{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+#sp0{
+    background-color: blue;
+}
+#sp1{
+    background-color:orange;
+}
+#sp2{
+    background-color: green;
+}
+#sp3{
+    background-color: purple;
+}
+#sp4{
+    background-color: navy;
+}
+#spp{
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+}
