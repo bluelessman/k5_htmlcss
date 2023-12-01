@@ -36,7 +36,7 @@ const getBoxoffice = (dt,tbDiv,tp) => {
             <td class="sp2">${movie.movieNm}</td>
             <td class="sp1">${movie.openDt}</td>
             <td class="sp3">${parseInt(movie.salesAmt).toLocaleString("ko-KR")}</td>
-            <td class="sp3">${parseInt(movie.audiCnt).toLocaleString("ko-KR")}</td>
+            <td class="sp3">${movie.rankInten}</td>
             </tr>`).join("")+"</table>";
         });
 }
